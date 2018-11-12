@@ -9,7 +9,7 @@ TWITTER = dict(
 # Elasticsearch configurations
 ELASTICSEARCH = dict(
     hostname = "localhost:9200",
-    index = "hash_tweets" # new elastic collection index
+    index = "hash_tweets", # new elastic collection index
     type = "doc"# new elastic collection type
 )
 
